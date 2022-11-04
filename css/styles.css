@@ -157,6 +157,15 @@ margin-left: 93px;
 /* Hero */
 .hero {
   background-color: var(--footer-bg-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero-bgc.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+
+
+  max-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
   text-align: center;
 }
@@ -211,6 +220,31 @@ margin-left: 93px;
   margin: -1px;
 }
 
+.grey-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+.antenna {
+
+}
+.clock {
+
+}
+.diagram {
+
+}
+.astronaut {
+
+}
+
 .benefits {
   display: flex;
   gap: 30px;
@@ -222,6 +256,7 @@ margin-left: 93px;
   color: var(--primary-title-color);
   font-size: 14px;
   margin-bottom: 10px;
+  
 }
 .benefits-paragraph {
   line-height: 1.71;
@@ -257,7 +292,8 @@ margin-left: 93px;
 }
 
 .member-info {
-  padding: 30px 0;
+  padding-top: 30px;
+
 }
 
 .member-container {
@@ -284,7 +320,24 @@ margin-left: 93px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
+  
+  margin-bottom: 16px;
+
+/* Best clients */
+.best-clients-list{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
+.best-clients {
+width: 170px;
+height: 92px;
+
+
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
 
 /* Footer  */
 .footer {
@@ -362,6 +415,9 @@ margin-left: 93px;
 }
 .photo-item {
     flex-basis: calc((100%-30px * 2))/3;
+}
+.photo-item:hover, .photo-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-title {
   font-weight: 700;
