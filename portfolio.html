@@ -31,8 +31,14 @@
         </ul>
       </nav>
       <ul class="contacts">
-        <li><a class="contacts-email nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-phone nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="contacts-items" href="mailto:info@devstudio.com">
+          <svg class="header-icon" width="16" height="12">
+            <use href="./Images/symbol-defs.svg#icon-envelope"></use>
+          </svg> info@devstudio.com</a></li>
+        <li><a class="contacts-items" href="tel:+380961111111">
+          <svg class="header-icon" width="10" height="16">
+            <use href="./Images/symbol-defs.svg#icon-smartphone"></use>
+          </svg> +38 096 111 11 11</a></li>
       </ul>
       </div>
     </header>
@@ -165,9 +171,11 @@
     <!-- Footer -->
   <footer class="footer">
       <div class="container">
+        <div class="footer-container-main">
         <a class="logo" lang="en" href="./index.html"
         >Web<span class="logo-studio-footer">Studio</span></a>
-      <address class="address-bar">
+        
+        <address class="address-bar">
         <ul class="footer-address">
           <li>
             <a
@@ -183,8 +191,28 @@
           </li>
           <li class="footer-link"><a class="footer-phone-mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </address>
+        </div>
+        <div class="footer-social-links">
+          <h2 class="footer-social-title">ПРИЄДНУЙТЕСЬ</h2>
+          <ul class="socials-footer">
+              <li class="socials-item-footer"><a class="socials-link-footer" href="https://instagram.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Instagram"> <svg class="socials-icon-footer" width="20" height="20">
+                <use href="./Images/symbol-defs.svg#icon-instagram"></use>
+              </svg></a></li>
+              <li class="socials-item-footer"><a class="socials-link-footer" href="https://twitter.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Twitter"> <svg class="socials-icon-footer" width="20" height="20">
+                <use href="./Images/symbol-defs.svg#icon-twitter"></use>
+              </svg></a></li>
+              <li class="socials-item-footer"><a class="socials-link-footer" href="https://facebook.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Facebook"> <svg class="socials-icon-footer" width="20" height="20">
+                <use href="./Images/symbol-defs.svg#icon-facebook"></use>
+              </svg></a></li>
+              <li class="socials-item-footer"><a class="socials-link-footer" href="https//:linkedin.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Linkedin"> <svg class="socials-icon-footer" width="20" height="20">
+                <use href="./Images/symbol-defs.svg#icon-linkedin"></use>
+              </svg></a></li>
+            </ul>
+        </div>
+        
       </div>
-      </address>
+      
     </footer>
   </body>
 </html>
