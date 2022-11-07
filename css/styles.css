@@ -506,11 +506,13 @@ color: #FFFFFF;
   flex-wrap: wrap;
   gap: var(--indent);
   margin-top: 50px;
+  gap: 30px 
 }
 .photo-item {
-  flex-basis: calc((100%-30px * 2))/3;
+   flex-basis: calc((100% - 60px) / 3)
 }
 .photo-link {
+  display: block;
   text-decoration: none;
 }
 .photo-link:hover, .photo-link:focus {
