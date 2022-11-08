@@ -138,8 +138,6 @@ button {
   border-bottom-color: rgb(236, 236, 236);
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  max-width: 1600px;
-  margin: 0 auto;
 }
 
 .header-container {
@@ -160,7 +158,8 @@ margin-left: 93px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero-bgc.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
+  background-size: cover;
+  height: 600px;
 
 
 
@@ -378,12 +377,9 @@ border-radius: 4px;
   fill: currentColor;
 }
 
-.best-clients-link:hover .best-clients-icon,
-.best-clients-link:focus .best-clients-icon {
-fill: var(--accent-color);
-}
+
 .best-clients-link:hover, .best-clients-link:focus {
-border: 1px solid var(--accent-color);
+color: var(--accent-color);
 }
 
 /* Footer  */
